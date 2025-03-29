@@ -60,11 +60,11 @@ function Home() {
 
       {/* Hero Section */}
       <section className="hero-section text-center text-white">
-        <div className="container py-5 mt-5">
-          <h1 className="text-secondary fw-bold display-3">
+        <div className="container py-5 mt-7">
+          <h1 className="text-secondary fw-bold display-3 mb-4">
             Healthy Overnight Oats, Made Fresh Daily
           </h1>
-          <p className="text-secondary lead">
+          <p className="text-secondary lead mb-4">
             Simple, gut-loving jars of nourishment — delivered straight to you.
           </p>
           <a href="#menu" className="btn btn-secondary me-4 btn-lg">
@@ -73,7 +73,7 @@ function Home() {
           <a href="#contact" className="btn btn-outline-dark btn-lg">
             Contact Us
           </a>
-          <div className="tagline mt-3 lead text-secondary">
+          <div className="tagline mt-4 lead text-secondary">
             <em>"Nourishment in every spoon."</em>
           </div>
         </div>

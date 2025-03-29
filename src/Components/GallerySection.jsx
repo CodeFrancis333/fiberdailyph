@@ -30,7 +30,7 @@ const galleryItems = [
 
 function GallerySection() {
   return (
-    <section className="py-5" id="gallery">
+    <section className="mt-3 mb-7" id="gallery">
       <div className="container text-center">
         <h2 className="mb-4 text-secondary display-5">Good Mornings Look Like This</h2>
         <div className="row g-4">
