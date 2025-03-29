@@ -1,0 +1,69 @@
+// Override Bootstrap color variables
+$primary: beige; // Custom primary color
+$secondary: #1d2a16; // Custom secondary color
+$success: #ddcb9b; // Custom success color
+$info: #00bcd4; // Custom info color
+$warning: #ffc107; // Custom warning color
+$danger: #f44336; // Custom danger color
+$dark: #333; // Custom dark color
+
+@import "bootstrap/scss/bootstrap";
+
+// Global background color for the website
+body {
+  background-color: var(--bs-success);
+}
+
+// Hover behavior: set initial opacities via CSS
+.hover-reveal .initial-content {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.hover-reveal .hover-content {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-reveal:hover .initial-content {
+  opacity: 0;
+}
+
+.hover-reveal:hover .hover-content {
+  opacity: 1;
+}
+
+// Gallery Section
+
+/* Gallery Card styles */
+.gallery-card {
+    position: relative;
+    overflow: hidden;
+}
+  
+.gallery-card .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: height 0.3s ease;
+}
+  
+  /* On hover, reveal a bottom overlay covering 25% of the card height */
+.gallery-card:hover .overlay {
+    height: 25%;
+}
+
+/* Custom solid outline for form controls */
+.form-control-solid {
+    border: 2px solid var(--bs-dark); /* Adjust border color as needed */
+    border-radius: 0.25rem;
+    background-color: #fff;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control-solid:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
