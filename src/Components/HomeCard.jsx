@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Import images (assuming they're in src/assets/images)
+// Import images (src/assets/images)
 import BananaLogo from '../assets/images/BananaLogo.png';
 import ChocoMocha from '../assets/images/ChocoMocha.png';
 import Berries from '../assets/images/Berries.png';
