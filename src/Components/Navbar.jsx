@@ -2,6 +2,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import Logo2 from '../assets/images/Logo2.png';
+
 function Navbar() {
   return (
     <nav
@@ -16,7 +18,7 @@ function Navbar() {
         <Link className="navbar-brand" to="/">
           <div style={{ height: "40px", width: "auto" }}>
             <img
-              src="/images/Logo2.png"
+              src={Logo2}
               alt="Fiber Daily PH Logo"
               style={{ height: "100%" }}
             />

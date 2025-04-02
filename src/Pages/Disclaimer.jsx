@@ -9,9 +9,9 @@ function Disclaimer() {
     <div>
       <Navbar />
       <section
-        className="py-5"
+        className="py-7"
         id="disclaimer"
-        style={{ backgroundColor: 'white', minHeight: '90vh' }}
+        style={{ backgroundColor: 'white', minHeight: '100vh' }}
       >
         <div className="container">
           <h1 className="mb-4">Disclaimer</h1>

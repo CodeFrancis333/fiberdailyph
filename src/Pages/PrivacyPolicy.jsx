@@ -7,7 +7,7 @@ function PrivacyPolicy() {
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Navbar />
       <section
-        className="py-5"
+        className="py-7"
         id="privacy-policy"
         style={{ backgroundColor: 'white', flexGrow: 1 }}
       >
